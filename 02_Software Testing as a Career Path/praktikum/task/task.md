@@ -2,6 +2,7 @@
 1. Sebutkan berbagai skill yang dibutuhkan untuk menjadi seorang software tester!
   
   Jawab:
+    
     Pemahaman tentang Teknologi: Kemampuan untuk memahami dasar-dasar teknologi informasi dan pemrograman adalah penting untuk menjadi seorang tester. Ini membantu dalam memahami bagaimana perangkat lunak dibangun dan bagaimana melakukan pengujian dengan benar.
 
     Analisis: Kemampuan untuk menganalisis kebutuhan pengguna dan spesifikasi perangkat lunak untuk merancang skenario pengujian yang tepat.
