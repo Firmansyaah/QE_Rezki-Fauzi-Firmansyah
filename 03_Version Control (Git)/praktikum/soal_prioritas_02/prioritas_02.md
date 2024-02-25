@@ -9,5 +9,7 @@ Jawab:
 
 Jawab:
     1. F:\Alterra\QE_Rezki-Fauzi-Firmansyah\03_Version Control (Git)\screenshots\prioritas2_2.png
+
     2. F:\Alterra\QE_Rezki-Fauzi-Firmansyah\03_Version Control (Git)\screenshots\prioritas2_3.png
+    
     3. F:\Alterra\QE_Rezki-Fauzi-Firmansyah\03_Version Control (Git)\screenshots\prioritas2_4.png
