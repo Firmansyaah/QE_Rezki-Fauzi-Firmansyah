@@ -1,1 +1,2 @@
 # Testing Documentation
+Test scenario adalah deskripsi umum tentang cara pengguna akan menggunakan perangkat lunak dalam situasi tertentu, sementara test case adalah instruksi rinci tentang cara melakukan pengujian untuk memastikan bahwa perangkat lunak berfungsi dengan benar dalam skenario tersebut.
