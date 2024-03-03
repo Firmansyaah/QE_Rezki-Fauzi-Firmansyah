@@ -1,0 +1,2 @@
+#Management Tools
+Management tools adalah alat-alat yang membantu dalam mengelola proyek, komunikasi tim, kolaborasi, manajemen tugas, pelacakan waktu, manajemen sumber daya, pengelolaan dokumen, dan penilaian kinerja. Contoh termasuk Trello, Slack, Google Drive, dan Toggl. Alat-alat ini membantu meningkatkan produktivitas, efisiensi, dan kerjasama dalam sebuah organisasi.
