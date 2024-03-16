@@ -1,7 +1,10 @@
-# Summary Basic Programming
+# Basic oriented programming
 
-Memahami Cara Kerja: Pemrograman melibatkan memahami bagaimana membuat rencana langkah demi langkah untuk menyelesaikan masalah menggunakan komputer.
+1. Membuat Kelompok-Kelompok Logis:
+OOP memungkinkan kita untuk mengelompokkan data dan aksi-aksi terkait ke dalam 'objek', seperti dalam kehidupan sehari-hari, di mana kita mengelompokkan barang-barang yang mirip atau berhubungan dalam kategori tertentu.
 
-Menguasai Bahasa: Seperti belajar bahasa asing, memahami bahasa pemrograman memungkinkan Anda untuk berkomunikasi dengan komputer. Anda perlu mengerti cara menyusun "kalimat" yang bisa dimengerti oleh mesin.
+2. Memanfaatkan Kemiripan dan Fleksibilitas:
+dengan menggunakan OOP dapat mewarisi sifat-sifat dan aksi-aksi dari objek lain, seperti ketika anak mewarisi sifat-sifat tertentu dari orang tua. Ini membantu kita menulis kode lebih efisien dan fleksibel.
 
-Kreativitas dalam Menyelesaikan Masalah: Pemrograman juga melibatkan kecerdasan dan kreativitas dalam menemukan cara terbaik untuk menyelesaikan masalah yang dihadapi. Ini melibatkan pemikiran kritis dan kemampuan untuk mencari solusi yang efisien.
+3. Membuat Kode Lebih Terstruktur dan Dapat Digunakan Ulang:
+Membuat kode kita lebih mudah dimengerti dan dipelihara karena kita bisa memisahkan logika program ke dalam potongan-potongan yang lebih kecil dan jelas. Ini juga membuat kode bisa digunakan kembali di berbagai bagian program, menghemat waktu dan upaya.
