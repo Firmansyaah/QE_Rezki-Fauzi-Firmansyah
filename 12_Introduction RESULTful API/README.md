@@ -1,9 +1,5 @@
-# Struktur Data Iterable & Map:
-1. Penyimpanan Terurut: 
-ArrayList atau LinkedList digunakan untuk menyimpan data terurut.
+# Intro RESULTfull API
 
-2. Manajemen Tumpukan (Stack): 
-Struktur data Stack memfasilitasi operasi LIFO seperti push dan pop.
-
-3. Pemetaan Kunci-Nilai Cepat: 
-Map menyediakan penyimpanan kunci-nilai untuk akses cepat, seperti HashMap dengan kompleksitas O(1).
+1. API memungkinkan program komputer untuk berkomunikasi satu sama lain. 
+2.  API memungkinkan Anda untuk mengakses dan mengambil data dari berbagai sumber, seperti database, situs web, layanan cloud, atau perangkat keras tertentu.
+3. bahasa yang digunakan mudah dipahami 
