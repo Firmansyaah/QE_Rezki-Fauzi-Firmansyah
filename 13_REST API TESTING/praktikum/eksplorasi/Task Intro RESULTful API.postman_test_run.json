@@ -1,0 +1,456 @@
+{
+	"id": "5bd9e102-e8d4-4fd5-a9b1-9e63d565236e",
+	"name": "Task Intro RESULTful API",
+	"timestamp": "2024-03-24T06:32:01.246Z",
+	"collection_id": "33060779-3e10726d-e228-4472-8ea9-3c8d97151dbd",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 10,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-03-24T06:31:52.611Z",
+	"totalFail": 4,
+	"results": [
+		{
+			"id": "990bb6e0-8f74-4460-afc2-5a3e797de36d",
+			"name": "Get All Posts",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 414,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response status should have 200 value": true
+			},
+			"testPassFailCounts": {
+				"response status should have 200 value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				414
+			],
+			"allTests": [
+				{
+					"response status should have 200 value": true
+				}
+			]
+		},
+		{
+			"id": "f0f00c58-c34b-498d-a775-10dd9293edcf",
+			"name": "Get All Posts Invalid endpoinnt",
+			"url": "https://jsonplaceholder.typicode.com/posts/invalidendpoint",
+			"time": 79,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404 for invalid endpoint": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid endpoint": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				79
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid endpoint": true
+				}
+			]
+		},
+		{
+			"id": "2a046006-41b1-46cb-b328-ca6e2470a63a",
+			"name": "Create New Post",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 898,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"response status should have 201 value": true
+			},
+			"testPassFailCounts": {
+				"response status should have 201 value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				898
+			],
+			"allTests": [
+				{
+					"response status should have 201 value": true
+				}
+			]
+		},
+		{
+			"id": "88625cab-ecdb-4c45-9ca6-158acd91591a",
+			"name": "Create New Post Invalid endpoint",
+			"url": "https://jsonplaceholder.typicode.com/posts/invalidendpoint",
+			"time": 311,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404 for invalid endpoint": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid endpoint": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				311
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid endpoint": true
+				}
+			]
+		},
+		{
+			"id": "f00be54e-4951-4cd8-a012-73dc6b881f24",
+			"name": "Create New Post Invalid parameter",
+			"url": "https://jsonplaceholder.typicode.com/posts?userName=Faqih",
+			"time": 320,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response status code is 404 for invalid parameter": false
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid parameter": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				320
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid parameter": false
+				}
+			]
+		},
+		{
+			"id": "d44fc421-7e95-4943-8693-ddeef10201ee",
+			"name": "Get Post by ID",
+			"url": "https://jsonplaceholder.typicode.com/posts",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response status should have 200 value": true
+			},
+			"testPassFailCounts": {
+				"response status should have 200 value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"response status should have 200 value": true
+				}
+			]
+		},
+		{
+			"id": "7eab9101-67c5-4747-8138-2e26ebd3d65f",
+			"name": "Get Post by ID Invalid Parameter",
+			"url": "https://jsonplaceholder.typicode.com/posts?id=150",
+			"time": 832,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 404 for invalid parameter": false
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid parameter": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				832
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid parameter": false
+				}
+			]
+		},
+		{
+			"id": "7dac3d17-10e8-4d89-9f6c-dae3b23e8bac",
+			"name": "Get Post by ID  invalid endpoiint",
+			"url": "https://jsonplaceholder.typicode.com/posts/2000",
+			"time": 73,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404 for invalid endpoint": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid endpoint": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				73
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid endpoint": true
+				}
+			]
+		},
+		{
+			"id": "71f72bca-148c-4884-807f-c2439dd478b0",
+			"name": "Update Post By ID",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 827,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response status should have 200 value": true
+			},
+			"testPassFailCounts": {
+				"response status should have 200 value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				827
+			],
+			"allTests": [
+				{
+					"response status should have 200 value": true
+				}
+			]
+		},
+		{
+			"id": "6fd012c7-40ce-47c3-8673-51bf0d0b86d2",
+			"name": "Update Post By ID Invalid endpoint",
+			"url": "https://jsonplaceholder.typicode.com/invalidendpoint/posts",
+			"time": 890,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404 for invalid endpoint": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid endpoint": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				890
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid endpoint": true
+				}
+			]
+		},
+		{
+			"id": "e103ab67-f480-4e22-b80e-f9000bd01e27",
+			"name": "Update Post By ID Invalid Parameter",
+			"url": "https://jsonplaceholder.typicode.com/posts/3000",
+			"time": 937,
+			"responseCode": {
+				"code": 500,
+				"name": "Internal Server Error"
+			},
+			"tests": {
+				"Response status code is 404 for invalid parameter": false
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid parameter": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				937
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid parameter": false
+				}
+			]
+		},
+		{
+			"id": "193e370b-f6ac-4ced-b759-0ca924fb8549",
+			"name": "Delate Post by ID",
+			"url": "https://jsonplaceholder.typicode.com/posts/1",
+			"time": 319,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"response status should have 200 value": true
+			},
+			"testPassFailCounts": {
+				"response status should have 200 value": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				319
+			],
+			"allTests": [
+				{
+					"response status should have 200 value": true
+				}
+			]
+		},
+		{
+			"id": "253e8014-56b1-42bb-8ab5-7b3333f69ff6",
+			"name": "Delate Post by with invalid endpoint",
+			"url": "https://jsonplaceholder.typicode.com/posts/900",
+			"time": 885,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response status code is 404 for invalid endpoint": false
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid endpoint": {
+					"pass": 0,
+					"fail": 1
+				}
+			},
+			"times": [
+				885
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid endpoint": false
+				}
+			]
+		},
+		{
+			"id": "6d865911-a112-42c2-9739-04a66f727a4f",
+			"name": "Delate Post by ID with invalid parameter",
+			"url": "https://jsonplaceholder.typicode.com/wrong_endpoint/posts/1",
+			"time": 338,
+			"responseCode": {
+				"code": 404,
+				"name": "Not Found"
+			},
+			"tests": {
+				"Response status code is 404 for invalid parameter": true
+			},
+			"testPassFailCounts": {
+				"Response status code is 404 for invalid parameter": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				338
+			],
+			"allTests": [
+				{
+					"Response status code is 404 for invalid parameter": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 7221,
+	"collection": {
+		"requests": [
+			{
+				"id": "990bb6e0-8f74-4460-afc2-5a3e797de36d",
+				"method": "GET"
+			},
+			{
+				"id": "f0f00c58-c34b-498d-a775-10dd9293edcf",
+				"method": "GET"
+			},
+			{
+				"id": "2a046006-41b1-46cb-b328-ca6e2470a63a",
+				"method": "POST"
+			},
+			{
+				"id": "88625cab-ecdb-4c45-9ca6-158acd91591a",
+				"method": "POST"
+			},
+			{
+				"id": "f00be54e-4951-4cd8-a012-73dc6b881f24",
+				"method": "POST"
+			},
+			{
+				"id": "d44fc421-7e95-4943-8693-ddeef10201ee",
+				"method": "GET"
+			},
+			{
+				"id": "7eab9101-67c5-4747-8138-2e26ebd3d65f",
+				"method": "GET"
+			},
+			{
+				"id": "7dac3d17-10e8-4d89-9f6c-dae3b23e8bac",
+				"method": "GET"
+			},
+			{
+				"id": "71f72bca-148c-4884-807f-c2439dd478b0",
+				"method": "PUT"
+			},
+			{
+				"id": "6fd012c7-40ce-47c3-8673-51bf0d0b86d2",
+				"method": "PUT"
+			},
+			{
+				"id": "e103ab67-f480-4e22-b80e-f9000bd01e27",
+				"method": "PUT"
+			},
+			{
+				"id": "193e370b-f6ac-4ced-b759-0ca924fb8549",
+				"method": "DELETE"
+			},
+			{
+				"id": "253e8014-56b1-42bb-8ab5-7b3333f69ff6",
+				"method": "DELETE"
+			},
+			{
+				"id": "6d865911-a112-42c2-9739-04a66f727a4f",
+				"method": "DELETE"
+			}
+		]
+	}
+}
