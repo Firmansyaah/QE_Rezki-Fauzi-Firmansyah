@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registrasi Perpustakaan Digital</title>
+<style>
+  body { font-family: Arial, sans-serif; }
+  .container { 
+    width: 85%; margin: auto; padding: 20px; 
+    border: 1px solid;
+  }
+  h2 { 
+    text-align: center;
+   }
+  form { 
+    display: flex; flex-direction: column;
+   }
+  label { 
+    margin-top: 10px;
+   }
+
+  input, select, textarea { 
+    margin-top: 5px; 
+    padding: 0.6rem;
+  }
+
+  textarea{
+    padding-bottom: 4rem;
+  }
+  button { margin-top: 20px; }
+
+  /* gnd */
+  .gnd {
+    margin-top: 1rem;
+  }
+
+  button {
+    padding: 0.5rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 700;
+    border: 1px solid;
+    background-color: #378CE7;
+    color: white;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Welcome to Digital Library</h2>
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required>
+    
+    <label for="phone">Phone number:</label>
+    <input type="tel" id="phone" name="phone" required>
+    
+    <label for="address">Alamat:</label>
+    <textarea id="address" name="address" required></textarea>
+    
+    <div class="gnd">
+      <label for="gender">Gender:</label>
+    
+      <label for=""><input type="radio" name="gender" value="male">male</label>
+      <label for=""><input type="radio" name="gender" value="female">female</label>
+    </div>
+    
+    
+    <button type="submit">Submit</button>
+  </form>
+</div>
+</body>
+</html>

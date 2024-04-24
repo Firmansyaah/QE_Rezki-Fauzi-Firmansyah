@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Registrasi Perpustakaan Digital</title>
+<style>
+  input{
+    margin-bottom: 1rem;
+    padding: 0.4rem;
+  }
+  textarea{
+    padding-bottom: 4rem;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <h2>Welcome to Digital Library</h2>
+  <form>
+    <div>
+        <label for="name">Name:</label> 
+    <input type="text" id="name" name="name" required>
+    </div>
+    
+    <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+    </div>
+    
+    <div>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+    </div>
+   
+    <div>
+        <label for="phone">Phone number:</label>
+        <input type="tel" id="phone" name="phone" required>
+    </div>
+   
+    <div>
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea>
+    </div>
+    
+    
+    <div class="gnd">
+      <label for="gender">Gender:</label> 
+    
+      <label for=""><input type="radio" name="gender" value="male">male</label>
+      <label for=""><input type="radio" name="gender" value="female">female</label>
+    </div>
+    
+    
+    <button type="register">Register</button>
+  </form>
+</div>
+</body>
+</html>
