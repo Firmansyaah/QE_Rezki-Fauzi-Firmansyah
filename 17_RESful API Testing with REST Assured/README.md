@@ -1,7 +1,7 @@
 # Summary Singkat
 
-Element formulir: Saat kita bikin formulir di HTML, kita mulai dengan tag <form>. Di situ kita tentuin cara kita mau kirim data dan di mana data itu mau dikirim.
+Pengenalan RESTful API: Memperkenalkan prinsip-prinsip arsitektur RESTful dan pentingnya API dalam pengembangan perangkat lunak modern.
 
-Element input: Nah, setelah itu, kita tambahin kotak-kotak buat ngumpulin data dari orang-orang. Misalnya, buat ngetik teks, password, atau pilihan checkbox. Ini semua pake tag <input>.
+Persiapan Lingkungan Pengujian: Membahas proses persiapan lingkungan pengujian menggunakan Rest Assured, termasuk instalasi dan konfigurasi.
 
-Label dan penelompokan: Menambahkan label yang menjelaskan tiap kotak isian. Kita bisa pake tag <label> buat ini. Dan jangan lupa grupin kotak-kotak isian yang mirip-mirip biar lebih rapih.
+Menulis Kasus Uji: Memberikan panduan dalam menulis kasus uji untuk RESTful API menggunakan Rest Assured, termasuk membuat permintaan HTTP, memvalidasi respons, dan menangani otentikasi.
