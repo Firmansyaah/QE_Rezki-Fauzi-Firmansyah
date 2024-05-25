@@ -2,55 +2,53 @@ package starter.user.products;
 
 import net.serenitybdd.annotations.Step;
 import net.serenitybdd.rest.SerenityRest;
+import org.hamcrest.Matchers;
 import starter.utils.JsonSchema;
 import starter.utils.JsonSchemaHelper;
 
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchema;
-import static org.hamcrest.Matchers.*;
-
 import static net.serenitybdd.rest.SerenityRest.restAssuredThat;
 
 public class GetAllProducts {
-    private static String url = "https://altashop-api.fly.dev/api/";
-    private static String invalidUrl = "https://altashop-api.fly.dev/api/invalid";
+    private static String url = "https://fakestoreapi.com/";
+    private static final String INVALID_URL = "https://fakestoreapi.com/invalid";
 
-
-    @Step("I set API endpoint for get all products")
-    public String setApiEndpointForGetAllProduct() {
+    @Step("I set the API endpoint to retrieve all data products")
+    public String  setApiEndpointAllProducts(){
         return url + "products";
     }
-    @Step("I set API invalid endpoint for get all products")
-    public String setApiInvalidEndpointForGetAllProduct() {
-        return invalidUrl + "products";
+    @Step("I set the API endpoint to retrieve all data products with invalid Endpoint")
+    public String setAPIEndpointAllProductsInvalidEndpoint() {
+        return INVALID_URL;
     }
 
-    @Step("I send a request to get all products")
-    public void sendGetAllProductsRequest() {
+    @Step("I send a request to retrieve all data products")
+    public void sendRequestAllProducts(){
         SerenityRest.given()
-                .get(setApiEndpointForGetAllProduct());
+                .get(setApiEndpointAllProducts());
     }
-    @Step("I send a request to get all products with invalid endpoint")
-    public void sendGetAllProductsRequestInvalidEndpoint() {
+    @Step("I send a request to retrieve all data products with invalid Endpoint")
+    public void sendRequestAllProductsWithInvalidEndpoint() {
         SerenityRest.given()
-                .get(setApiInvalidEndpointForGetAllProduct());
+                .get(setAPIEndpointAllProductsInvalidEndpoint());
     }
 
-    @Step("I receive status code product 200")
-    public void receiveStatusCodeProduct200() {
+    @Step("I should receive a status code of 200")
+    public void receiveStatusCode200(){
         restAssuredThat(response -> response.statusCode(200));
     }
 
-    @Step("I receive valid data for all products")
-    public void receiveValidAllProducts() {
+    @Step("I should receive valid data for all products")
+    public void receiveValidAllDataProducts(){
         JsonSchemaHelper helper = new JsonSchemaHelper();
-        String schema = helper.getResponseSchema(JsonSchema.GET_ALL_PRODUCTS);
+        String schema = helper.getResponseSchema(JsonSchema.GET_ALL_PRODUCTS_SCHEMA);
+        restAssuredThat(response -> response.body("'id'", Matchers.notNullValue()));
+        restAssuredThat(response -> response.body("'title'", Matchers.notNullValue()));
+        restAssuredThat(response -> response.body("'price'", Matchers.notNullValue()));
+        restAssuredThat(response -> response.body("'description'", Matchers.notNullValue()));
+        restAssuredThat(response -> response.body("'category'", Matchers.notNullValue()));
+        restAssuredThat(response -> response.body("'rating.rate'", Matchers.notNullValue()));
+        restAssuredThat(response -> response.body("'rating.count'", Matchers.notNullValue()));
         restAssuredThat(response -> response.body(matchesJsonSchema(schema)));
     }
-
-    @Step("I receive status code product 404")
-    public void receiveStatusCodeProduct404() {
-        restAssuredThat(response -> response.statusCode(404));
-    }
-
-
 }

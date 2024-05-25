@@ -7,7 +7,7 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty"},
-        features = "src/test/resources/alta-shop-api"
+        features = "src/test/resources/fake-store-api"
 
 )
 public class CucumberTestSuite {}

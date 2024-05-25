@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4bdf2a90-6abc-43e9-9da4-89555f8b1fe6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Authentication/GetUserInformation.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Authentication/Login.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Authentication/Register.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Hello/Index.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Product Categories/CreateACategory.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Product Categories/DeleteCategory.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Product Categories/GetAllCategory.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Product Categories/GetCategoryByID.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/.gitkeep" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/AssignAProjectRating.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/CreateACommentForProduct.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/CreateANewProduct.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/DelateProduct.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/GetAllProducts.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/GetProductByID.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/GetProductComments.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/Products/GetProductRatings.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/orders/CreateNewOrder.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/orders/GetAllOrders.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/praktikum/FakeStoreAPI/src/test/resources/fake-store-api/features/api/orders/GetOrdersByID.feature" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2gxHD099PBMTNeuHutbogBUJPoi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "F:/Alterra/QE_Rezki-Fauzi-Firmansyah/23_Code Competence 2"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4bdf2a90-6abc-43e9-9da4-89555f8b1fe6" name="Changes" comment="" />
+      <created>1716632184651</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1716632184651</updated>
+    </task>
+    <servers />
+  </component>
+</project>
