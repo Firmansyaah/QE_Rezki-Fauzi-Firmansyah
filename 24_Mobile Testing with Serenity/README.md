@@ -1,0 +1,6 @@
+poiny penting mobile testing
+Pengujian Registrasi Pengguna: Otomatisasikan proses registrasi untuk memastikan bahwa pengguna dapat berhasil mendaftar dengan kredensial yang valid. Ini melibatkan pengujian berbagai skenario seperti format email yang valid, persyaratan kekuatan kata sandi, dan konfirmasi pendaftaran yang berhasil.
+
+Pengujian Otentikasi Login: Otomatisasikan proses login untuk memverifikasi bahwa pengguna dapat mengautentikasi dengan berhasil menggunakan kredensial yang valid. Kasus pengujian harus mencakup skenario seperti login berhasil, percobaan login gagal dengan kredensial yang salah, dan penanganan kesalahan untuk berbagai kasus ekstrem.
+
+Pengujian Penanganan Kesalahan: Otomatisasikan pengujian untuk memverifikasi bahwa aplikasi menampilkan pesan kesalahan yang sesuai dan menangani input yang tidak valid dengan baik. Ini termasuk pengujian skenario seperti memasukkan format email yang tidak valid, kata sandi yang salah, dan mencoba mendaftar dengan informasi yang tidak lengkap atau hilang.
