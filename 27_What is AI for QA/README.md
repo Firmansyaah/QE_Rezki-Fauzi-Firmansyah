@@ -1,21 +1,39 @@
-What is AI for QA Kesimpulan :
+# What is AI for QA
 
-Link Tugas : (https://docs.google.com/document/d/1FbOFhxdHrlp0pyT_UBiIXZbSO1vqd6h7rSXdtBCafIg/edit?usp=sharing)
+## Problem dalam Software QA
+- Pembuatan testcase dan test scenario masih secara manual sehingga membutuhkan waktu yang cukup lama
+- Pengecekan code program dilakukan secara manual sehingga membutuhkan waktu yang cukup lama untuk mencari bug / defect pada sebuah code program
 
-Link Test Case
-Manual Testcase : (https://docs.google.com/spreadsheets/d/1OJwQPBRpyg0iOz8xJWcqhJomxlSSc8-aq8ETgq64kR0/edit?usp=sharing)
+## AI untuk Software Quality Assurance
+- Test automation
+- Defect prediction
+- Code analysis
+- Debugging
 
-AI  Testcase : 
-(https://docs.google.com/spreadsheets/d/1t5d_bPNyAj_AjwXDsfH57CDdCegTlKAxg1ddQuyPjD8/edit?usp=sharing)
+**Keuntungan dari AI:**
+- Meningkatkan efisiensi dan akurasi
+- Meningkatkan kualitas software
+- Mendeteksi bug / defect lebih awal
+- Mengurangi proses secara manual / repetitif
 
-Manual Testing:
-Fleksibel: Memungkinkan penyesuaian dan pemahaman yang mendalam oleh manusia.
-Kontekstual: Mampu menangkap detail dan konteks yang sulit diidentifikasi oleh tools.
+**Tantangan AI untuk software QA:**
+- Kualitas data dan potensi bias
+- Masalah kemanan dan privasi
+- Kurangnya pengawasan
+- Masalah transparansi
 
-Testing dengan Tools:
-Otomatisasi: Menghasilkan test case dan scenario secara cepat dan efisien.
-Terstruktur: Memberikan konsistensi dan struktur yang terorganisir dalam pengujian.
+**Etika Pengembangan AI:**
+- Keadilan
+- Transparansi
+- Privasi
+- Berfokus pada manusia
 
-Kombinasi Keduanya:
-Menggabungkan manual testing dan tools menghasilkan pendekatan yang paling efektif.
-Memaksimalkan fleksibilitas dan pemahaman manusia, sambil memanfaatkan otomatisasi dan efisiensi tools.
+### Contoh test automation tools
+- Testim
+- Applitools
+- Mabl
+- Functionize
+
+### Contoh code analysis tools
+- CodeSonar
+- Snyx
